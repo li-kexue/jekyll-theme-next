@@ -3,7 +3,8 @@ layout: post
 title: 'proxy study'
 date: 2019-08-01
 author: likexue
-tags: [java proxy]
+categories: java
+tags: [java spring]
 ---
 
 > 想学习一下spring aop，但是看看有动态代理的知识，就先来学学动态代理.
