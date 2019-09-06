@@ -3,9 +3,8 @@ layout: post
 title: 'spring bean study'
 date: 2019-7-31
 author: likexue
-color: rgb(232,192,186)
-cover: 'https://images.unsplash.com/photo-1559842376-c0eb5b516cfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=330&q=80'
-tags: java springbean
+categories: java
+tags: [java springbean]
 ---
 
 # spring bean
