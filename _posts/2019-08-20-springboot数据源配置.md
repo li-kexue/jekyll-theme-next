@@ -4,6 +4,8 @@ title: 'spring boot 数据源配置'
 date: 2019-08-20
 author: likexue
 categories: java
+photos:
+- https://images.unsplash.com/photo-1474291102916-622af5ff18bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
 tags: [springboot]
 ---
 
