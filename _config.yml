@@ -233,7 +233,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-avatar: /asserts/images/profile.png
+# avatar: /asserts/images/profile.png
 
 
 # Table Of Contents in the Sidebar
@@ -256,8 +256,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-#   position: left
-  position: right
+  position: left
+#   position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
