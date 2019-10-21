@@ -3,6 +3,8 @@ layout: post
 title: 'proxy study'
 date: 2019-08-01
 author: likexue
+photos:
+- https://images.unsplash.com/photo-1562102049-03d1bd23c43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80
 categories: java
 tags: [java spring]
 ---
