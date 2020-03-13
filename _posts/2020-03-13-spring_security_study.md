@@ -70,7 +70,7 @@ photos:
 
 结合下图理解：
 
-![图一]({{site.baseurl}}/assets/images/spring/SpringSecurity.png)	
+![图一]({{site.baseurl}}/assets/images/SpringSecurity.png)	
 
 
 ### 1.UsernamePasswordAuthenticationFIlter
