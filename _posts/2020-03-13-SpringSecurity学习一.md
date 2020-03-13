@@ -1,19 +1,17 @@
 ---
 layout: post
-title: 'spring security'
+title: "spring security学习（一）"
 date: 2020-03-13
-author: likexue
+categories: spring
 photos:
-
 - https://pixabay.com/photos/sparkler-holding-hands-firework-677774/
-  categories: spring security
-  tags: [spring] [security]
+tags: [spring]
 ---
 
   
 
 
-# Spring Security学习（一
+<h1 align="center">Spring Security学习（一）</h1>
 
 # 实现功能：
 
