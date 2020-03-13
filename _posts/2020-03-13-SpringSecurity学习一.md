@@ -4,7 +4,7 @@ title: "spring security学习（一）"
 date: 2020-03-13
 categories: spring
 photos:
-- https://pixabay.com/photos/sparkler-holding-hands-firework-677774/
+- https://cdn.pixabay.com/photo/2015/03/17/14/05/sparkler-677774_960_720.jpg
 tags: [spring]
 ---
 
