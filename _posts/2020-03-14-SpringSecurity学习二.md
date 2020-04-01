@@ -4,7 +4,7 @@
 
 类比上一张的流程，可以得到下面这张图。
 
-![图一](/home/likexue/Git/li-kexue.github.io/assets/images/spring/SpringSecurity2.png)
+![图一]({{site.baseurl}}/assets/images/spring/SpringSecurity2.png)
 
 <p align="center">图一</p>
 
@@ -115,21 +115,6 @@ public class EmailCodeAuthenticationProvider implements AuthenticationProvider {
 4. 实现
 
 ```java
-package com.likexue.email_authentication.security;
-
-import org.springframework.lang.Nullable;
-import org.springframework.security.authentication.AuthenticationServiceException;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.AuthenticationException;
-import org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter;
-import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
-import org.springframework.util.Assert;
-import org.springframework.web.bind.ServletRequestBindingException;
-import org.springframework.web.bind.ServletRequestUtils;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
 public class EmailCodeAuthenticationFilter extends AbstractAuthenticationProcessingFilter {
     public static final String SPRING_SECURITY_FORM_USERNAME_KEY = "email";
     private String emailParameter = "email";
@@ -255,7 +240,7 @@ public class EmailCodeConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest()
                 .authenticated()
                     .and()
-                .csrf()
+                .csrf()//关闭csrf，使自定义登录页面可以使用
                 .disable()
                 .apply(securityconfig);// 使我们的配置生效
     }
