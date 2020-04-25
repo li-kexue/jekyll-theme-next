@@ -1,3 +1,14 @@
+---
+layout: post
+title: "spring security学习（一）"
+date: 2020-03-14
+categories: spring
+photos:
+- https://cdn.pixabay.com/photo/2015/03/17/14/05/sparkler-677774_960_720.jpg
+tags: [spring]
+---
+
+
 <h1 align = "center">Spring Security学习(二)</h1>
 
 根据上一章的学习，基本摸清了spring security的工作脉络，接下来就是要动手实践，来实现我们自己的校验逻辑了。
