@@ -11,8 +11,6 @@ tags: [spring]
   
 
 
-<h1 align="center">Spring Security学习（一）</h1>
-
 # 实现功能：
 
 + 使用spring security实现一个邮件验证码登录。
