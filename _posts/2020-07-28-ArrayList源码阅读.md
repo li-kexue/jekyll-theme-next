@@ -1,4 +1,15 @@
-# ArrayList源码阅读
+---
+layout: post
+title: 'ArrayList源码学习'
+date: 2020-06-09
+author: likexue
+photos:
+- https://cdn.pixabay.com/photo/2017/06/20/22/14/men-2425121_960_720.jpg
+categories: 源码阅读
+tags: [源码阅读 ArrayList]
+---
+
+
 
 对于ArrayList源码，我是初次阅读，可能有很多地方理解不正确，如果有错的话还请大家多多指教。
 
@@ -84,7 +95,7 @@ public void add(int index, E element) {
 
 这里**System.arraycopy(elementData, index, elementData, index + 1, s - index)**我觉得与必要说一下，结合System类的注释，大概了解了这个函数的意义。
 
-![](/home/likexue/图片/bolg_image/源码阅读/1.gif)
+![]({{site.baseurl}}/assets/images/arraylist/1.gif)
 
 在add函数中，source array和target array其实是同一个数组，这里我为了便于理解，做成了两个。
 
@@ -130,7 +141,7 @@ public void add(int index, E element) {
 
 上面三段代码就一块分析了，整个添加流程大概如下图：
 
-![](/home/likexue/文档/graph/ArrayList.png)
+![]({{site.baseurl}}/assets/images/arraylist/ArrayList.png)
 
 这幅图可能并不是很准确，有些细节我并没有体现，因为怕图越来越臃肿。
 
@@ -187,11 +198,11 @@ public void add(int index, E element) {
 
 示例1：
 
-![](/home/likexue/图片/bolg_image/ArrayList3.jpg)
+![]({{site.baseurl}}/assets/images/arraylist/ArrayList3.jpg)
 
 测试结果：
 
-![](/home/likexue/图片/bolg_image/ArrayList4.jpg)
+![]({{site.baseurl}}/assets/images/arraylist/ArrayList4.jpg)
 
 我一开始起了10个线程，发现并没有出现想要的异常，于是直接起1000个线程，不出意外，出现了想要的结果。当然我也不能100%确定就是这个作用，但是依照目前测试结果来看，肯定是有这么个作用的。如果大家有别的见解欢迎指出。
 
@@ -203,13 +214,13 @@ public void add(int index, E element) {
 
 示例1：
 
-![](/home/likexue/图片/bolg_image/ArrayList1.jpg)
+![]({{site.baseurl}}/assets/images/arraylist/ArrayList1.jpg)
 
 测试结果为true。
 
 示例2：
 
-![](/home/likexue/图片/bolg_image/ArrayList2.jpg)
+![]({{site.baseurl}}/assets/images/arraylist/ArrayList2.jpg)
 
 结果为false。
 
